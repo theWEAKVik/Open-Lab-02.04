@@ -21,7 +21,7 @@ namespace Open_Lab_02._04
         [TestCase(10, 12, 13, 120)]
         [TestCaseSource(nameof(GetRandom))]
         public void GetLegsCountTest(int chickens, int cows, int pigs, int expectedOutput) =>
-            Assert.AreEqual(expectedOutput, farm.GetLegsCount(chickens, cows, pigs));
+            Assert.That(farm.GetLegsCount(chickens, cows, pigs), Is.EqualTo(expectedOutput));
 
         private static IEnumerable GetRandom()
         {

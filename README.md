@@ -1,7 +1,7 @@
 # Open-Lab-02.04
 (6 XP) A function that returns a number of legs of animals together.
 
-1. Clone this repository to your GitHub account.
+1. Fork this repository to your GitHub account.
 2. Open solution file in Visual Studio.
 3. Open file `Farm.cs`.
 4. Implement the method `GetLegsCount(int chickens, int cows, int pigs)` that returns a number of legs.
